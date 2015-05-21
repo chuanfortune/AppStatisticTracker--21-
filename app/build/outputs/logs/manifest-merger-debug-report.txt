@@ -1,0 +1,161 @@
+-- Merging decision tree log ---
+manifest
+ADDED from AndroidManifest.xml:2:1
+	package
+		ADDED from AndroidManifest.xml:3:2
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0
+	android:versionName
+		ADDED from AndroidManifest.xml:4:2
+	android:versionCode
+		ADDED from AndroidManifest.xml:3:39
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0
+	xmlns:android
+		ADDED from AndroidManifest.xml:2:11
+	android:installLocation
+		ADDED from AndroidManifest.xml:4:30
+application
+ADDED from AndroidManifest.xml:6:2
+	android:label
+		ADDED from AndroidManifest.xml:6:52
+	android:icon
+		ADDED from AndroidManifest.xml:6:15
+activity#com.nolanlawson.apptracker.AppTrackerActivity
+ADDED from AndroidManifest.xml:7:3
+	android:label
+		ADDED from AndroidManifest.xml:7:48
+	android:configChanges
+		ADDED from AndroidManifest.xml:8:3
+	android:name
+		ADDED from AndroidManifest.xml:7:13
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from AndroidManifest.xml:9:4
+action#android.intent.action.MAIN
+ADDED from AndroidManifest.xml:10:5
+	android:name
+		ADDED from AndroidManifest.xml:10:13
+category#android.intent.category.LAUNCHER
+ADDED from AndroidManifest.xml:11:5
+	android:name
+		ADDED from AndroidManifest.xml:11:15
+activity#com.nolanlawson.apptracker.AppTrackerWidgetConfiguration
+ADDED from AndroidManifest.xml:15:3
+	android:label
+		ADDED from AndroidManifest.xml:16:4
+	android:configChanges
+		ADDED from AndroidManifest.xml:16:47
+	android:name
+		ADDED from AndroidManifest.xml:15:13
+intent-filter#android.appwidget.action.APPWIDGET_CONFIGURE
+ADDED from AndroidManifest.xml:17:4
+action#android.appwidget.action.APPWIDGET_CONFIGURE
+ADDED from AndroidManifest.xml:18:5
+	android:name
+		ADDED from AndroidManifest.xml:18:13
+activity#com.nolanlawson.apptracker.SettingsActivity
+ADDED from AndroidManifest.xml:23:3
+	android:label
+		ADDED from AndroidManifest.xml:24:4
+	android:configChanges
+		ADDED from AndroidManifest.xml:24:37
+	android:name
+		ADDED from AndroidManifest.xml:23:13
+activity#com.nolanlawson.apptracker.HtmlFileActivity
+ADDED from AndroidManifest.xml:26:3
+	android:theme
+		ADDED from AndroidManifest.xml:26:46
+	android:name
+		ADDED from AndroidManifest.xml:26:13
+receiver#com.nolanlawson.apptracker.AppTrackerWidgetProvider
+ADDED from AndroidManifest.xml:28:3
+	android:name
+		ADDED from AndroidManifest.xml:28:13
+intent-filter#android.appwidget.action.APPWIDGET_UPDATE
+ADDED from AndroidManifest.xml:29:4
+action#android.appwidget.action.APPWIDGET_UPDATE
+ADDED from AndroidManifest.xml:30:5
+	android:name
+		ADDED from AndroidManifest.xml:30:13
+intent-filter#android.intent.action.BOOT_COMPLETED+android.intent.category.HOME
+ADDED from AndroidManifest.xml:38:4
+action#android.intent.action.BOOT_COMPLETED
+ADDED from AndroidManifest.xml:39:5
+	android:name
+		ADDED from AndroidManifest.xml:39:13
+category#android.intent.category.HOME
+ADDED from AndroidManifest.xml:40:5
+	android:name
+		ADDED from AndroidManifest.xml:40:15
+intent-filter#com.nolanlawson.apptracker.action.PAGE_UPDATE_FORWARD
+ADDED from AndroidManifest.xml:44:4
+action#com.nolanlawson.apptracker.action.PAGE_UPDATE_FORWARD
+ADDED from AndroidManifest.xml:45:5
+	android:name
+		ADDED from AndroidManifest.xml:45:13
+data
+ADDED from AndroidManifest.xml:46:5
+	android:scheme
+		ADDED from AndroidManifest.xml:46:11
+intent-filter#com.nolanlawson.apptracker.action.PAGE_UPDATE_BACK
+ADDED from AndroidManifest.xml:49:4
+action#com.nolanlawson.apptracker.action.PAGE_UPDATE_BACK
+ADDED from AndroidManifest.xml:50:5
+	android:name
+		ADDED from AndroidManifest.xml:50:13
+intent-filter#com.nolanlawson.apptracker.action.RESTART_SERVICE
+ADDED from AndroidManifest.xml:54:4
+action#com.nolanlawson.apptracker.action.RESTART_SERVICE
+ADDED from AndroidManifest.xml:55:5
+	android:name
+		ADDED from AndroidManifest.xml:55:13
+intent-filter#android.intent.action.PACKAGE_REPLACED
+ADDED from AndroidManifest.xml:59:4
+action#android.intent.action.PACKAGE_REPLACED
+ADDED from AndroidManifest.xml:60:5
+	android:name
+		ADDED from AndroidManifest.xml:60:13
+intent-filter#android.intent.action.PACKAGE_REMOVED
+ADDED from AndroidManifest.xml:64:4
+action#android.intent.action.PACKAGE_REMOVED
+ADDED from AndroidManifest.xml:65:5
+	android:name
+		ADDED from AndroidManifest.xml:65:13
+intent-filter#android.intent.action.PACKAGE_ADDED
+ADDED from AndroidManifest.xml:69:4
+action#android.intent.action.PACKAGE_ADDED
+ADDED from AndroidManifest.xml:70:5
+	android:name
+		ADDED from AndroidManifest.xml:70:13
+meta-data#android.appwidget.provider
+ADDED from AndroidManifest.xml:74:4
+	android:resource
+		ADDED from AndroidManifest.xml:75:5
+	android:name
+		ADDED from AndroidManifest.xml:74:15
+service#com.nolanlawson.apptracker.AppTrackerService
+ADDED from AndroidManifest.xml:79:3
+	android:name
+		ADDED from AndroidManifest.xml:79:12
+service#com.nolanlawson.apptracker.UpdateAppStatsService
+ADDED from AndroidManifest.xml:81:3
+	android:name
+		ADDED from AndroidManifest.xml:81:12
+uses-sdk
+ADDED from AndroidManifest.xml:86:2
+	android:targetSdkVersion
+		ADDED from AndroidManifest.xml:86:38
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0
+	android:minSdkVersion
+		ADDED from AndroidManifest.xml:86:12
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0
+uses-permission#android.permission.READ_LOGS
+ADDED from AndroidManifest.xml:87:2
+	android:name
+		ADDED from AndroidManifest.xml:87:19
+uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
+ADDED from AndroidManifest.xml:88:2
+	android:name
+		ADDED from AndroidManifest.xml:88:19

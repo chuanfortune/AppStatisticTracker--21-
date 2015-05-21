@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/E:/AppTracker/app/src/main/res/values/arrays.xml -->
+    <eat-comment/>
+    <string-array name="app_touch_choices">
+		<item>@string/choice_launch</item>
+		<item>@string/choice_exclude</item>
+		<item>@string/choice_uninstall</item>
+	
+	</string-array>
+    <string-array name="sort_type_descriptions">
+		<item>Last Used</item>
+		<item>Hit Count</item>
+		<item>Hit Count</item>
+		<item>Installed</item>
+		<item>Last Updated</item>
+		<item>Score</item>
+		<item/>
+	</string-array>
+    <string-array name="sort_type_display_list">
+		<item>@string/sort_type_display_recently_used</item>
+		<item>@string/sort_type_display_most_used</item>
+		<item>@string/sort_type_display_least_used</item>
+		<item>@string/sort_type_display_recently_installed</item>
+		<item>@string/sort_type_display_recently_updated</item>
+		<item>@string/sort_type_display_time_decay</item>
+		<item>@string/sort_type_display_alphabetic</item>
+	</string-array>
+    <string-array name="sort_type_list">
+		<item>@string/sort_type_recently_used</item>
+		<item>@string/sort_type_most_used</item>
+		<item>@string/sort_type_least_used</item>
+		<item>@string/sort_type_recently_installed</item>
+		<item>@string/sort_type_recently_updated</item>
+		<item>@string/sort_type_time_decay</item>
+		<item>@string/sort_type_alphabetic</item>
+	</string-array>
+    <!-- From: file:/E:/AppTracker/app/src/main/res/values/colors.xml -->
+    <eat-comment/>
+    <color name="bubble_dark_background">#B2191919</color>
+    <color name="dark_gray">#FF333333</color>
+    <!-- From: file:/E:/AppTracker/app/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="about">About</string>
+    <string name="about_app_tracker">About App Tracker</string>
+    <string name="advanced">Advanced</string>
+    <string name="app_exclude_text">Exclude?</string>
+    <string name="app_name">App Tracker</string>
+    <string name="app_name_text">Application</string>
+    <string name="app_tracker_config">App Tracker Configuration</string>
+    <string name="appearance">Appearance</string>
+    <string name="apps_to_exclude_preference">apps_to_exclude</string>
+    <string name="apps_to_exclude_summary">Choose which apps to omit from the list</string>
+    <string name="apps_to_exclude_title">Apps to Exclude</string>
+    <string name="back_arrow">&lt;</string>
+    <string name="bad_decay_constant_toast">Please enter a whole number between 1 and 100</string>
+    <string name="basic">Basic</string>
+    <string name="choice_exclude">Exclude</string>
+    <string name="choice_launch">Launch</string>
+    <string name="choice_uninstall">Uninstall</string>
+    <string name="choose_sort_type">Choose Sorting</string>
+    <string name="data_deleted">Data deleted.</string>
+    <string name="delete_all1">Delete all tracked data?</string>
+    <string name="delete_all2">Are you really sure?  This cannot be undone!</string>
+    <string name="done">Done</string>
+    <string name="enable_icon_caching_preference">enable_icon_caching</string>
+    <string name="enable_icon_caching_summary">Uncheck this only if App Tracker is taking up too much space</string>
+    <string name="enable_icon_caching_title">Cache App Icons</string>
+    <string name="first_run_message">\
+To disable the notification, go to Menu → Settings.\n\n\
+For changelog and version info, go to Menu → About.\n\n\
+For a full user guide, go to Menu → User Guide.\n\n\
+Enjoy!\
+</string>
+    <string name="first_run_preference">first_run</string>
+    <string name="first_run_title">Welcome to App Tracker!</string>
+    <string name="forward_arrow">></string>
+    <string name="free_version_text">Note: buy the premium version to unlock grayed-out options.</string>
+    <string name="full_app_list">Full App List</string>
+    <string name="general">General</string>
+    <string name="hello">Hello World, AppTrackerActivity!</string>
+    <string name="hide_app_title_preference">hide_app_title</string>
+    <string name="hide_app_title_summary">Don\'t show app names</string>
+    <string name="hide_app_title_title">Hide App Titles</string>
+    <string name="hide_subtext_disabled_for_alphabetic">Alphabetic sorting has no subtext</string>
+    <string name="hide_subtext_preference">hide_subtext</string>
+    <string name="hide_subtext_summary">Don\'t show ranking information below app name</string>
+    <string name="hide_subtext_title">Hide Subtext</string>
+    <string name="loading">Loading...</string>
+    <string name="lock_page_preference">lock_page</string>
+    <string name="lock_page_summary">Show only one page of results; hide \"&lt;\" and \">\" buttons</string>
+    <string name="lock_page_title">Lock Page</string>
+    <string name="need_premium">You need the Premium version to do that.</string>
+    <string name="notification_subtext">Select to start App Tracker.</string>
+    <string name="notification_ticker">App tracking started</string>
+    <string name="notification_title">App tracking in progress</string>
+    <string name="page_number_preference">page_number</string>
+    <string name="page_number_summary">Page of results to show when locked</string>
+    <string name="page_number_title">Page to Lock</string>
+    <string name="refresh">Refresh</string>
+    <string name="reset_data_preference">reset_data_preference</string>
+    <string name="reset_data_summary">Delete all saved data and start fresh</string>
+    <string name="reset_data_title">Reset Data</string>
+    <string name="reset_intros_message">Introductory message will be shown again.</string>
+    <string name="reset_intros_preference">reset_intros_preference</string>
+    <string name="reset_intros_summary">Show introductory message again</string>
+    <string name="reset_intros_title">Reset Introduction</string>
+    <string name="settings">Settings</string>
+    <string name="show_background_preference">show_background</string>
+    <string name="show_background_summary">Add a gray widget tray beneath icons</string>
+    <string name="show_background_title">Show Background</string>
+    <string name="show_notification_preference">show_notification_icon</string>
+    <string name="show_notification_summary">Recommended: ON. (See the User Guide for more info.)</string>
+    <string name="show_notification_title">Show Notification</string>
+    <string name="sort_type_alphabetic">Alphabetic</string>
+    <string name="sort_type_display_alphabetic">Alphabetic</string>
+    <string name="sort_type_display_least_used">Rarely Used</string>
+    <string name="sort_type_display_most_used">Most Used</string>
+    <string name="sort_type_display_recently_installed">Recently Installed</string>
+    <string name="sort_type_display_recently_updated">Recently Updated</string>
+    <string name="sort_type_display_recently_used">Recently Used</string>
+    <string name="sort_type_display_time_decay">Flavor of the Week</string>
+    <string name="sort_type_least_used">Least Used</string>
+    <string name="sort_type_most_used">Most Used</string>
+    <string name="sort_type_preference">app_tracker_type</string>
+    <string name="sort_type_recently_installed">Recently Installed</string>
+    <string name="sort_type_recently_updated">Recently Updated</string>
+    <string name="sort_type_recently_used">Recent</string>
+    <string name="sort_type_summary">How to order the app icons (%s)</string>
+    <string name="sort_type_time_decay">Time Decay</string>
+    <string name="sort_type_title">Sorting</string>
+    <string name="stretch_to_fill_preference">stretch_to_fill</string>
+    <string name="stretch_to_fill_summary">Space icons evenly when text or buttons are hidden</string>
+    <string name="stretch_to_fill_title">Stretch to Fill</string>
+    <string name="time_decay_constant_preference">time_decay_constant</string>
+    <string name="time_decay_constant_summary">Lower values mean app scores decay faster in Flavor of the Week view (default: 7)</string>
+    <string name="time_decay_constant_title">Time Decay Constant</string>
+    <string name="user_guide">User Guide</string>
+    <string name="waiting">Waiting...</string>
+</resources>

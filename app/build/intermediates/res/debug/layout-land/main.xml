@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" android:layout_height="fill_parent"
+	android:orientation="horizontal">
+
+	<LinearLayout android:layout_width="wrap_content"
+		android:layout_height="fill_parent" android:orientation="vertical"
+		android:gravity="center_vertical"  android:padding="3dp"
+		android:id="@+id/main_buttons_linear_layout">
+
+		<Button android:id="@+id/main_button" android:layout_width="wrap_content"
+			android:layout_height="wrap_content" />
+
+	</LinearLayout>
+
+	<LinearLayout android:layout_width="0px"
+			android:layout_weight="1.0" android:layout_height="fill_parent" android:orientation="vertical">
+		<include layout="@layout/apps_header" android:id="@+id/apps_header_layout"
+		android:layout_width="fill_parent" android:layout_height="wrap_content"/>
+
+		<ListView android:id="@android:id/list" android:layout_width="fill_parent" android:layout_height="0px" 
+		android:layout_weight="1.0"
+			android:paddingTop="5dp" android:paddingBottom="5dp" />
+
+	</LinearLayout>
+
+</LinearLayout>
+<!-- From: file:/E:/AppTracker/app/src/main/res/layout-land/main.xml -->

@@ -1,0 +1,22 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 8
+    buildToolsVersion "22.0.0"
+
+    defaultConfig {
+        applicationId "com.nolanlawson.apptracker"
+        minSdkVersion 3
+        targetSdkVersion 8
+
+        testApplicationId "com.nolanlawson.apptracker.test"
+        testInstrumentationRunner "android.test.InstrumentationTestRunner"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+        }
+    }
+}
